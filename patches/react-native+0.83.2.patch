@@ -1,0 +1,28 @@
+diff --git a/node_modules/react-native/.DS_Store b/node_modules/react-native/.DS_Store
+new file mode 100644
+index 0000000..12cc8a6
+Binary files /dev/null and b/node_modules/react-native/.DS_Store differ
+diff --git a/node_modules/react-native/React/CoreModules/React-CoreModules.podspec b/node_modules/react-native/React/CoreModules/React-CoreModules.podspec
+index e9e0955..448e58e 100644
+--- a/node_modules/react-native/React/CoreModules/React-CoreModules.podspec
++++ b/node_modules/react-native/React/CoreModules/React-CoreModules.podspec
+@@ -37,7 +37,6 @@ Pod::Spec.new do |s|
+   s.ios.exclude_files      = "PlatformStubs/**/*"
+   exclude_files            = ["RCTStatusBarManager.mm"]
+   s.macos.exclude_files    = exclude_files
+-  s.visionos.exclude_files = exclude_files
+   s.tvos.exclude_files     = exclude_files
+ 
+   s.header_dir             = "CoreModules"
+diff --git a/node_modules/react-native/ReactAndroid/.DS_Store b/node_modules/react-native/ReactAndroid/.DS_Store
+new file mode 100644
+index 0000000..6255987
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/.DS_Store differ
+diff --git a/node_modules/react-native/ReactAndroid/src/.DS_Store b/node_modules/react-native/ReactAndroid/src/.DS_Store
+new file mode 100644
+index 0000000..77f96b3
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/.DS_Store differ
+diff --git a/node_modules/react-native/ReactCommon/.DS_Store b/node_modules/react-native/ReactCommon/.DS_Store
+new file mode 100644
+index 0000000..28dddc9
+Binary files /dev/null and b/node_modules/react-native/ReactCommon/.DS_Store differ

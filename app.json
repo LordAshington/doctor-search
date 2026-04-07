@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "shiftcare-doctor-app",
+    "slug": "shiftcare-doctor-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/hospital.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "shiftcaredoctorapp",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shiftcaredoctorapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/hospital.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shiftcaredoctorapp"
+    },
+    "web": {
+      "favicon": "./src/assets/hospital.png"
+    },
+    "plugins": [
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./src/assets/hospital.png"
+        }
+      ]
+    ]
+  }
+}
